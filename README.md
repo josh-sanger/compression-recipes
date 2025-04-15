@@ -64,7 +64,7 @@ for i in *.jpg; do ffmpeg -i "$i" -c:v libwebp "${i%.jpg}.webp"; done;
 (Replace `.jpg` with the file extension)
 
 ```bash
-ffmpeg -i input.png -c:v libwebp output.webp
+ffmpeg -i input.jpg -c:v libwebp output.webp
 ```
 <hr />
 
