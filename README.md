@@ -52,6 +52,7 @@ Converting to WEBP is the way to go here now that all browsers support it.
 
 ### Batch compression
 Test ran with one of the album back covers from All Editions. [Original image](https://github.com/user-attachments/assets/90c793d2-b2d0-47d2-b462-f022468c4ade) was `1.3mb` and [webp version](https://cdn.shopify.com/s/files/1/0711/3431/4719/files/Connect.webp?v=1744711306) ended up being `118kb`!! 
+
 Put your images in the a folder, navigate to the folder and run the following (replace `.jpg` with file extension):
 
 ```bash
