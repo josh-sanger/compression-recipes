@@ -2,6 +2,18 @@
 
 [ffmpeg](https://ffmpeg.org/) is the GOAT.
 
+## Table of Contents
+
+- [Audio Compression](#audio-compression)
+  - [Mild Compression](#mild-compression)
+  - [Aggressive Compression](#agressive-compression)
+  - [Very Aggressive Compression](#very-agression-compression)
+- [Image Compression](#image-compression)
+  - [Batch Compression](#batch-compression)
+  - [Single Compression](#single-compression)
+- [GLB Compression (WebP)](#glb-compression-webp)
+  - [How to Use](#how-to-use)
+
 ## Audio compression
 
 The right compression depends on what is happening in the audio. Try out these recipies and find the one that has the smallest file size with the least quality loss.
