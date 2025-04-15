@@ -13,6 +13,8 @@
   - [Single Compression](#single-compression)
 - [GLB Compression (WebP)](#glb-compression-webp)
   - [How to Use](#how-to-use)
+ 
+<hr />
 
 ## Audio compression
 
@@ -43,13 +45,14 @@ ffmpeg -i input.mp3 -codec:a libmp3lame -q:a 5 output.mp3
 ```bash
 ffmpeg -i input.mp3 -codec:a libmp3lame -ar 22050 -b:a 64k output.mp3
 ```
+<hr />
 
 ## Image compression
 
 Converting to WEBP is the way to go here now that all browsers support it.
 
 ### Batch compression
-
+Test ran with one of the album back covers from All Editions. [Original image](https://github.com/user-attachments/assets/90c793d2-b2d0-47d2-b462-f022468c4ade) was `1.3mb` and [webp version](https://cdn.shopify.com/s/files/1/0711/3431/4719/files/Connect.webp?v=1744711306) ended up being `118kb`!! 
 Put your images in the a folder, navigate to the folder and run the following (replace `.jpg` with file extension):
 
 ```bash
@@ -63,10 +66,10 @@ for i in *.jpg; do ffmpeg -i "$i" -c:v libwebp "${i%.jpg}.webp"; done;
 ```bash
 ffmpeg -i input.png -c:v libwebp output.webp
 ```
+<hr />
 
 ## GLB compression (WebP)
-
-This was especially useful for baked in textures.
+This was especially useful for baked in textures. The wall glb from All Editions went from `1.6mb` down to `160kb`!!!
 
 ### How to use
 
