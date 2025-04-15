@@ -1,6 +1,6 @@
 # Compression Recipies
 
-[ffmpeg](https://ffmpeg.org/) is the GOAT.
+> TLDR; [ffmpeg](https://ffmpeg.org/) is the GOAT.
 
 ## Table of Contents
 
