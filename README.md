@@ -10,6 +10,7 @@
 - [Image Compression](#image-compression)
   - [Batch Compression](#batch-compression)
   - [Single Compression](#single-compression)
+  - [Controlling Quality](#controlling-quality)
 - [GLB Compression (WebP)](#glb-compression-webp)
   - [How to Use](#how-to-use)
  
