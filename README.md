@@ -66,6 +66,14 @@ for i in *.jpg; do ffmpeg -i "$i" -c:v libwebp "${i%.jpg}.webp"; done;
 ```bash
 ffmpeg -i input.jpg -c:v libwebp output.webp
 ```
+
+### Controlling quality
+
+You can control the quality of the output as well (Replace `.jpg` with the file extension and replace `100` with what % of quality you wish to maintain)
+
+```bash
+ffmpeg -i input.jpg -c:v libwebp -q:v 100 output.webp
+```
 <hr />
 
 ## GLB compression (WebP)
